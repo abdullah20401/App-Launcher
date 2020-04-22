@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <title>App Launcher</title>
+</head>
+<body>
+    <h1><b>Application Launcher</b></h1>
+    <div class="container">
+        <div class="row">
+            <table align="center">
+                <tr>
+                    <td>
+                        <a href="https://notion.so"><img src="data:image/png;base64,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" alt="Notion Logo"></a>
+                        <h3>Notion</h3>
+                    </td>
+                    <td>
+                        <a href="https://evernote.com"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Evernote_Icon.png" alt="Evernote Logo"></a>
+                        <h3>Evernote</h3>
+                    </td>
+                    <td>
+                        <a href="Google_Tasks.html"><img src="https://c616b3614506f07e89ab-5cef763fe73fcec814d61b3b60a1ac9a.ssl.cf1.rackcdn.com/V1~95724514-6ea8-4757-9bab-6308e09b4c68~31138e8c590d46e0ba3e47effa79b6af" alt="Google Tasks Logo"></a>
+                        <h3>Google Task</h3>
+                    </td>
+                    <td>
+                        <a href="https://todoist.com"><img src="https://pageflows.imgix.net/media/logos/todoist.jpg?auto=compress&ixlib=python-1.1.2&s=db010a1dd4787ddb6a0276c58ec94390" alt="Todoist Logo"></a>
+                        <h3>Todoist</h3>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td>
+                        <a href="https://wakatime.com"><img src="https://cdn.worldvectorlogo.com/logos/wakatime.svg" alt="Wakatime Logo"></a>
+                        <h3>Wakatime</h3>
+                    </td>
+                    <td>
+                        <a href="vscode://"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" alt="Vs Code Logo"></a>
+                        <h3>VS Code</h3>
+                    </td>
+                    <td>
+                        <a href="https://www.adobe.com/products/xd.html?sdid=12B9F15S&mv=Search&ef_id=Cj0KCQjw6_vzBRCIARIsAOs54z5iOxQh3N0FMUVtW5TMXdHbtxFKWkoTl3-HkzPByPZfm5UcQH2ZXcMaAnEBEALw_wcB:G:s&s_kwcid=AL!3085!3!394015009825!e!!g!!adobe%20xd"><img src="https://www.prototypr.io/wp-content/uploads/2016/07/xd.png" alt="Adobe XD Logo"></a>
+                        <h3>Adobe XD</h3>
+                    </td>
+                    <td>
+                        <a href="https://rainymood.com/"><img src="https://i.scdn.co/image/ab67616d0000b2734f8f0c346afd66ba8b8d4fc5" alt="Rainy Mood Logo"></a>
+                        <h3>Rainy Mood</h3>
+                    </td>
+                </tr>
+        
+                <tr>
+                    <td><img src="" alt=""></td>
+                    <td><img src="" alt=""></td>
+                    <td><img src="" alt=""></td>
+            </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
